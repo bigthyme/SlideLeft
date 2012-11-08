@@ -1,0 +1,83 @@
+body{
+    font-family:Arial;
+    background-image: url('../images/beachbody.png');
+    background-repeat: no-repeat;
+}
+
+.dim {
+    height:100%;
+    width:100%;
+    position:fixed;
+    left:0;
+    top:0;
+    z-index:1 !important;
+    background-color: rgba(0,0,0,0.4);
+}
+
+#sidePanel{
+    width:300px;
+    height: 362px;
+    position:relative;
+    top:179px;
+    left: -297px;
+    z-index: 9999;
+}
+#panelHandle{
+    height:130px;
+    width:48px;
+    border-radius:0 5px 5px 0;
+    float:left;
+    cursor:pointer;
+}
+#panelContent{
+    float: left;
+    border:1px solid #333333;
+    width:287px;
+    height:310px;
+    background-color:#EEEEEE;
+    border-radius: 2px;
+    z-index: 9999;
+}
+
+/* Other Tests */
+
+#panelHandle{
+    /* Use if need to rotate tab 
+    -moz-transform: rotate(450deg);
+    -webkit-transform: rotate(450deg);
+    */
+    background-image: url('../images/lefttab.png');
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 200px;
+    left: 0px;
+    background-repeat: no-repeat;
+}
+
+a:focus {
+	outline: none;
+}
+
+.poweredBy {
+    background-image: url('../images/poweredby.png') no-repeat;
+    position: relative;
+    left: 0px; 
+    top: 0px;
+    z-index: 999;
+}
+
+.slide {
+	margin: 0;
+	padding: 0;
+	border-top: solid 4px #422410;
+	background: url('http://widget.drumbi.com/images/CallMe-button.png') no-repeat center top;
+	/*background: url('http://www.webdesignerwall.com/demo/jquery/images/btn-slide.gif') no-repeat center top;*/
+}
+
+.active {
+	background-position: right 12px;
+}

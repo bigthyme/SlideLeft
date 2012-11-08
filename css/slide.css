@@ -1,0 +1,46 @@
+body{
+    font-family:Arial;
+    background-image: url('../images/beachbody.png');
+    background-repeat: no-repeat;
+}
+
+#sidePanel{
+    width:300px;
+    position:fixed;
+    left:-289px;
+    top:15%;
+    
+}
+#panelHandle{
+    height:130px;
+    width:48px;
+    border-radius:0 5px 5px 0;
+    float:left;
+    cursor:pointer;
+}
+#panelContent{
+    float: left;
+    border:1px solid #333333;
+    width:287px;
+    height:310px;
+    background-color:#EEEEEE;
+    border-radius: 2px;
+}
+
+
+#panelHandle{
+    /* Use if need to rotate tab
+    -moz-transform: rotate(270deg);
+    -webkit-transform: rotate(270deg);s
+    */
+    background-image: url('../images/lefttab.png');
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold;
+    left: 289px;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: -205px;
+    background-repeat: no-repeat;
+}
